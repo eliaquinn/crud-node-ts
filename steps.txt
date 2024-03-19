@@ -1,0 +1,22 @@
+npm i typescript --save-dev
+tsc --init
+npm i fastify @fastify/cors
+npm i tsx //para o projeto entender o typescript em produção
+
+npm i @types/node --save-dev //tipagens node
+
+configure o mondodb cloud
+
+depois instale o prisma da seguinte forma
+npm install prisma --save-dev
+npm install @prisma/client
+npx prisma init
+
+Obs. Vai ser gerado um schema no seu projeto, com arquivos de variaveis de ambientes
+
+apos configurar o prima com seu schemas e variaveis de ambientes, use o seguinte comanando
+
+npx prisma generate
+--------------------------------
+para abrir o prisma studio
+npx prisma studio
